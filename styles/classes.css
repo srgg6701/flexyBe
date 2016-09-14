@@ -6,20 +6,8 @@
     padding:15px;
 }
 
-.offset-0{
-    left:0;
-}
-
-.offset-6{
-    left:50%;
-}
-
 .textbox{
     padding: 15px;
-}
-
-.textbox > div{
-    padding-bottom: 24px;
 }
 
 .relative{

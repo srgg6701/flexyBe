@@ -16,18 +16,17 @@
     <link rel="stylesheet" href="styles/classes.css">
     <link rel="stylesheet" href="styles/images.css">
     <link rel="stylesheet" href="styles/colors.css">
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" href="styles/styles-ie.css">
+    <![endif]-->
     <script src="modernizr-custom.js"></script>
 </head>
 
 <body>
     <div id="page" class="container">
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <h3>Hello, everyone. Happiness is unavoidable, 
-            even don't try to escape it! ☻</h3>
-        <!--[if lt IE 11]>
-            <p class="browsehappy">You may feel pain about flexbox due to an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <h3>Hello, everyone. Happiness is unavoidable, even don't try to escape it! ☻</h3>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You may feel pain about flexbox due to an <strong>old IE</strong>. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <h4>Right approach: flexbox, position: absolute, transform</h4>
         <div class="flex bg-lightcoral">
@@ -36,13 +35,13 @@
                 <div class="textbox bg-lightblue">
                     <div>
                         <h4>Why everybody adores our insurance company?</h4>
-                        <p>Because our youth, beauty and sexuality are irresistible. Come to Daddy, human being, you have no choice, anyway!
-                            Esse dolor ut amet sint aute aliqua ex ea est reprehenderit. Yo!
+                        <p>Because our youth, beauty and sexuality are irresistible. Come to Daddy, human being, you have no
+                            choice, anyway! Esse dolor ut amet sint aute aliqua ex ea est reprehenderit. Yo!
                         </p>
                     </div>
-                    <!--todo: maibe it make sense not to use transform:translateX, 
-                        but wrap button into div and assign margin:auto-->
-                    <button class="absolute">Find out more</button>
+                    <div class="btnbox">
+                        <button>Find out more</button>
+                    </div>
                 </div>
             </div>
             <div class="col-6 relative">
@@ -51,73 +50,16 @@
                     <div>
                         <h4>When we pay and when we don't</h4>
                         <p>Well, sometimes we pay allways, sometimes we pay never. It's our life, Dude! What did you want, indeed?
-                            Officia minim non nostrud irure velit fugiat consectetur ullamco commodo aliqua. Pariatur est culpa
-                            non minim sunt reprehenderit ex magna cupidatat eu sit. Nisi aute voluptate nisi duis veniam
+                            Officia minim non nostrud irure velit fugiat consectetur ullamco commodo aliqua. Pariatur est
+                            culpa non minim sunt reprehenderit ex magna cupidatat eu sit. Nisi aute voluptate nisi duis veniam
                             id. Aute exercitation esse irure commodo aliquip esse duis ut velit aliqua labore reprehenderit.</p>
                     </div>
-                    <button class="absolute">Make a claim</button>
+                    <div class="btnbox">
+                        <button>Make a claim</button>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <!--<h4>Approach 2: position: absolute, transform, no flexbox</h4>
-        <div class="bg-lightcoral floatbox">
-            <div id="left-vertical-2" class="col-6 relative float-left">
-                <div class="image"></div>
-                <div class="textbox bg-lightblue">
-                    <div>
-                        <h4>Why WHI insurance so good?</h4>
-                        <p>Amet ea ex fugiat ipsum irure amet aliqua ut pariatur. Aute exercitation esse irure commodo aliquip
-                            esse duis ut velit aliqua labore reprehenderit. Esse dolor ut amet sint aute aliqua ex ea est
-                            reprehenderit.
-                        </p>
-                    </div>
-                    <button class="absolute">Find out more</button>
-                </div>
-            </div>
-            <div id="right-vertical-2" class="col-6 relative float-left">
-                <div class="image"></div>
-                <div class="textbox bg-lightgreen">
-                    <div>
-                        <h4>When we pay and when not</h4>
-                        <p>Officia minim non nostrud irure velit fugiat consectetur ullamco commodo aliqua. Pariatur est culpa
-                            non minim sunt reprehenderit ex magna cupidatat eu sit. Nisi aute voluptate nisi duis veniam
-                            id. Aute exercitation esse irure commodo aliquip esse duis ut velit aliqua labore reprehenderit.</p>
-                    </div>
-                    <button class="absolute">Make a claim</button>
-                </div>
-            </div>
-        </div>-->
-
-        <!--<h2>And now is time for pseudoflex!</h2>
-        <div class="relative bg-lightcoral">
-            <div id="left-vertical-3" class="col-6 absolute offset-0 full-height">
-                <div class="image"></div>
-                <div class="textbox bg-lightblue">
-                    <div>
-                        <h4>Why WHI insurance so good?</h4>
-                        <p>Amet ea ex fugiat ipsum irure amet aliqua ut pariatur. Aute exercitation esse irure commodo aliquip
-                            esse duis ut velit aliqua labore reprehenderit. Esse dolor ut amet sint aute aliqua ex ea est
-                            reprehenderit.
-                        </p>
-                    </div>
-                    <button>Find out more</button>
-                </div>
-            </div>
-            <div id="right-vertical-3" class="col-6 absolute offset-6 full-height">
-                <div class="image"></div>
-                <div class="textbox bg-lightgreen">
-                    <div>
-                        <h4>When we pay and when not</h4>
-                        <p>Officia minim non nostrud irure velit fugiat consectetur ullamco commodo aliqua. Pariatur est culpa
-                            non minim sunt reprehenderit ex magna cupidatat eu sit. Nisi aute voluptate nisi duis veniam
-                            id. Aute exercitation esse irure commodo aliquip esse duis ut velit aliqua labore reprehenderit.</p>
-                    </div>
-                    <button>Make a claim</button>
-                </div>
-            </div>
-        </div>-->
     </div>
 </body>
-
 </html>
