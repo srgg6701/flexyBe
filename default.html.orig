@@ -24,18 +24,22 @@
 
 <body>
     <div id="page" class="container">
-        <h3>Hello, everyone. Happiness is unavoidable, even don't try to escape it! ☻</h3>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You may feel pain about flexbox due to an <strong>old IE</strong>. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+<<<<<<< HEAD
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <h3>Hello, everyone.</h3>
         <p>We claim: <span class="font-bigger">♥</span> Happiness is unavoidable, even don't try to escape it!</p>
         <!--[if lt IE 10]>
+            <p class="browsehappy">You may feel pain about flexbox due to an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
             <script>
                 alert('Old IE, Dude!');
             </script>
+=======
+        <h3>Hello, everyone. Happiness is unavoidable, even don't try to escape it! ☻</h3>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You may feel pain about flexbox due to an <strong>old IE</strong>. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+>>>>>>> bae2ba2fab1d3dc42bb3b82b85f9d88e19213be2
         <![endif]-->
         <h4>Right approach: flexbox, position: absolute, transform</h4>
         <div class="flex bg-lightcoral">
