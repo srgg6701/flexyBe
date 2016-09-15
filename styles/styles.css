@@ -8,6 +8,10 @@ html, body{
 }
 
 button{
+    background-color: #eee;
+    border: solid 2px #bbb;
+    padding-top: 8px;
+    padding-bottom: 8px;
     width: 160px;
 }
 
@@ -18,7 +22,7 @@ h1, h2, h3, h4{
 
 @media (min-width:768px){
     .textbox > div:first-child{
-        padding-bottom: 24px;
+        padding-bottom: 40px;
     }
 
    .btnbox{
