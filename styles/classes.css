@@ -6,12 +6,8 @@
     padding:15px;
 }
 
-.offset-0{
-    left:0;
-}
-
-.offset-6{
-    left:50%;
+.font-bigger{
+    font-size: 1.3em;
 }
 
 .textbox{
