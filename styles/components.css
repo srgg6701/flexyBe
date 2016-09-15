@@ -1,0 +1,10 @@
+@media(min-width:768px){
+    #approach-info{
+        float:right;
+    }
+}
+
+#page{
+    margin: auto;
+    max-width: 1280px;
+}

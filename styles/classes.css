@@ -2,6 +2,10 @@
     position: absolute;
 }
 
+.btnbox{
+    text-align: center;
+}
+
 .container{
     padding:15px;
 }
@@ -20,4 +24,10 @@
 
 .row{
     margin: auto -15px;
+}
+
+.warning{
+    background-color: yellow;
+    margin: 15px auto;
+    padding: 20px;
 }

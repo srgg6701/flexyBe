@@ -15,28 +15,22 @@ h1, h2, h3, h4{
     font-family: Arial, Verdana, Tahoma, serif;
 }
 
-#page{
-    margin: auto;
-    max-width: 1280px;
-}
-
-.btnbox{
-    text-align: center;
-}
-
-.textbox > div:first-child{
-    padding-bottom: 24px;
-}
 
 @media (min-width:768px){
-    .btnbox{
+    .textbox > div:first-child{
+        padding-bottom: 24px;
+    }
+
+   .btnbox{
         bottom:15px;
         position: absolute;
         text-align: inherit;
     }
+
     .flex{
         display: flex;
     }
+    
     .col-6{
         width: 50%;
     }
