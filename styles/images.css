@@ -13,6 +13,15 @@
     background-image: url("../images/header-image-travel-homepage-m.jpg");
 }
 
+@media (min-width:768px){
+    [data-src-t="header-image-claims-landing-t"]{
+        background-image:  url("../images/header-image-claims-landing-t.jpg");
+    }
+    [data-src-t="header-image-travel-homepage-t"]{
+        background-image:  url("../images/header-image-travel-homepage-t.jpg");
+    } 
+}
+
 @media (min-width:1024px){
     [data-src-d="header-image-claims-landing-d"]{
         background-image:  url("../images/header-image-claims-landing-d.jpg");
@@ -21,12 +30,4 @@
         background-image:  url("../images/header-image-travel-homepage-d.jpg");
     } 
 }
-
-@media (min-width:768px){
-    [data-src-t="header-image-claims-landing-t"]{
-        background-image:  url("../images/header-image-claims-landing-t.jpg");
-    }
-    [data-src-t="header-image-travel-homepage-t"]{
-        background-image:  url("../images/header-image-travel-homepage-t.jpg");
-    } 
-} 
+ 
