@@ -8,13 +8,23 @@
     margin: auto;
     max-width: 1280px;
 }
+.columns-container{
+    margin: auto -15px;
+}
+.image{
+    height: 0;
+    margin: 15px;
+    padding-bottom: 70%;
+    background-size: cover;
+}
 
 @media (min-width: 768px){
     .columns-container{
         display: flex;
         justify-content: space-between;
+        margin: auto;
     }
     .columns-container > *{
         width: calc(50% - 7.5px);
-    }    
+    }
 }
