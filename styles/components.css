@@ -3,7 +3,6 @@
         float:right;
     }
 }
-
 #page{
     margin: auto;
     max-width: 1280px;
@@ -27,4 +26,25 @@
     .columns-container > *{
         width: calc(50% - 7.5px);
     }
+}
+
+/**/
+#header{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    overflow: auto;
+}
+#header > h2{
+    padding: 20px;
+}
+#header > h2:nth-child(1){
+    background-color: pink;
+}
+#header > h2:nth-child(2){
+    background-color: aqua;
+}
+#header > h2 span{
+    display: block;
 }
